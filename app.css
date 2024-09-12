@@ -1,0 +1,48 @@
+.norican-regular {
+    font-family: "Norican", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.lunasima-regular {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .kaisei-tokumin-regular {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    background-color: #C27727;
+}
+
+p {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+#name {
+    font-family: "Norican", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header, footer {
+    background-color: #332E29;
+}
+
+header, footer>nav {
+    color: #FFB866;
+}
+
+#big-font {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
