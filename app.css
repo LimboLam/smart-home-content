@@ -17,7 +17,7 @@
   
 
 * {
-    background-color: #C27727;
+    background-color: #c27727;
 }
 
 .smart-home-interior {
@@ -25,12 +25,23 @@
 }
 
 .nav-top > a {
+    display: inline-block;
+    align-content: space-evenly;
+    padding: 1em;
+}
+
+.nav-bot {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 nav > a {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
+    background-color: #332e29;
+    color: #ffb866;
 }
 
 p {
@@ -43,6 +54,9 @@ p {
     font-family: "Norican", cursive;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    background-color: #332e29;
+    color: #ff8800;
 }
 
 nav {
@@ -50,12 +64,34 @@ nav {
 }
 
 header, footer nav {
-    color: #FFB866;
+    color: #ffb866;
+}
+
+.techo-1 {
+    border: black solid 1px;
+}
+
+.techo-2 {
+    border: black solid 1px;
+}
+
+.techo-3 {
+    border: black solid 1px;
+}
+
+.techo-4 {
+    border: black solid 1px;
+}
+
+footer {
+    background-color: #332e29;
 }
 
 .big-font {
     font-family: "Lunasima", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #ff8800;
+    background-color: #332e29;
 }
 
