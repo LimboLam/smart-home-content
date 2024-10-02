@@ -20,6 +20,19 @@
     background-color: #C27727;
 }
 
+.smart-home-interior {
+    align-self: center;
+}
+
+.nav-top > a {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
 p {
     font-family: "Kaisei Tokumin", serif;
     font-weight: 400;
@@ -32,15 +45,15 @@ p {
     font-style: normal;
 }
 
-header, footer {
-    background-color: #332E29;
+nav {
+    background-color: #332e29;
 }
 
-header, footer>nav {
+header, footer nav {
     color: #FFB866;
 }
 
-#big-font {
+.big-font {
     font-family: "Lunasima", sans-serif;
     font-weight: 400;
     font-style: normal;
