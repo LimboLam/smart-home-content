@@ -20,6 +20,11 @@
     background-color: #c27727;
 }
 
+header {
+    border: 1px black solid;
+    padding: 3em;
+}
+
 .smart-home-interior {
     align-self: center;
 }
@@ -67,23 +72,30 @@ header, footer nav {
     color: #ffb866;
 }
 
-.techo-1 {
-    border: black solid 1px;
+.tech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
 }
 
-.techo-2 {
-    border: black solid 1px;
-}
-
-.techo-3 {
-    border: black solid 1px;
-}
-
-.techo-4 {
-    border: black solid 1px;
+[class^=techo] {
+    border: 1px black solid;
+    max-width: 538px;
+    max-height: 326px;
 }
 
 footer {
+    background-color: #332e29;
+}
+
+.footer-font {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ff8800;
     background-color: #332e29;
 }
 
@@ -91,8 +103,11 @@ footer {
     font-family: "Lunasima", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #ff8800;
-    background-color: #332e29;
+    color: black;
+}
+
+.second-head {
+    color: black;
 }
 
 .index {
