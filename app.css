@@ -75,9 +75,7 @@ p {
     font-family: "Norican", cursive;
     font-weight: 400;
     font-style: normal;
-    display: flex;
-    justify-self: center;
-    align-self: center;
+    display: inline-block;
     margin-top: 0;
     margin-bottom: 0;
     background-color: #332e29;
@@ -135,8 +133,24 @@ footer {
 
 [class^=techo] {
     border: 1px black solid;
-    width: 538px;
-    height: 326px;
+    width: 750px;
+}
+
+.safety {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly; 
+}
+
+[class^=sf] {
+    width: 631px;
+    height: 449px;
+}
+
+.safe-img{
+    width: 631px;
+    height: 449px;
 }
 
 .second-head {
