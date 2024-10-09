@@ -57,7 +57,8 @@
 
 .nav-bot {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 nav > a {
@@ -92,11 +93,32 @@ nav {
 }
 
 header, footer nav {
-    color: #ffb866;
+    color: #ff8800
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
     background-color: #332e29;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+label, input {
+    display: flex;
+    justify-self: right;
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #332e29;
+    color: #ff8800;
+}
+
+input {
+    color: #ffb866;
+    height: 20%;
 }
 
 .footer-font {
@@ -107,31 +129,29 @@ footer {
     background-color: #332e29;
 }
 
-.home-page-img-1 {
+/* Home Page */
+.home-div {
     display: flex;
-    align-self: center;
-    justify-self: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.home-page-img-1 {
     width: 1440px;
-    /* height: 550px; */
-    min-width: 1440px;
-    /* min-height: 550px; */
 }
 
 .index {
     font-size: large;
     padding: 3em;
+    width: 50%;
 }
 
 .home-page-img-2 {
-    display: flex;
-    align-self: center;
-    justify-self: center;
+    padding: 3em;
     width: 1333px;
-    /* height: 361px; */
-    min-width: 1333px;
-    /* min-height: 361px; */
 }
 
+/* Tech */
 .tech {
     display: flex;
     flex-direction: row;
@@ -146,6 +166,7 @@ footer {
     width: 750px;
 }
 
+/* Safety */
 .safety {
     display: flex;
     flex-flow: row wrap;
@@ -155,20 +176,28 @@ footer {
 }
 
 [class^=sf] {
-    border: 1px black solid;
-    width: 631px;
+    display: flex;
+    flex-direction: row;
+    margin: 3em;
+    width: 60%;
 }
 
-.safe-img{
-    width: 631px;
+.safe-img {
+    width: 60%;
 }
 
+.safe-txt {
+     padding-left: 5em;
+}
+
+/* Convenience */
 .convenience {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     align-content: space-around;
+    padding-top: 3em;
 }
 
 [class^=coni] {
