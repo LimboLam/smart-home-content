@@ -129,7 +129,7 @@ input {
     background-color: #332e29;
 }
 
-/* Home Page */
+/* Home */
 .home-div {
     display: flex;
     justify-content: center;
@@ -166,6 +166,11 @@ input {
     width: 750px;
 }
 
+.tech-vert {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Safety */
 .safety {
     display: flex;
@@ -188,6 +193,11 @@ input {
 
 .safe-txt {
      padding-left: 5em;
+}
+
+.safe-vert {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Convenience */
