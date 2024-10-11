@@ -207,8 +207,14 @@ footer > .name {
     width: 60%;
 }
 
-.safe-txt {
-     padding-left: 5em;
+.safe-txt-left {
+    display: flex;
+    padding-right: 5em;
+}
+
+.safe-txt-right{
+    display: flex;
+    padding-left: 80px;
 }
 
 .safe-vert {
@@ -223,7 +229,8 @@ footer > .name {
     justify-content: space-evenly;
     align-items: center;
     align-content: space-around;
-    padding-top: 3em;
+    padding-top: 32px;
+    padding-bottom: 80px;
 }
 
 [class^=coni] {
