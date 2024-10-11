@@ -27,6 +27,7 @@
     align-items: center;
     border: 1px black solid;
     padding: 2em;
+    margin-bottom: 3em;
 }
 
 .second-head {
@@ -132,7 +133,7 @@ input {
 
 footer > .name {
     padding-right: 2em;
-    padding-left: 4.5em;
+    padding-left: 4em;
 }
 
 .footer-font {
@@ -179,7 +180,6 @@ footer > .name {
     border: 1px black solid;
     width: 750px;
     margin-bottom: 3em;
-    margin-top: 3em;
 }
 
 .tech-vert {
