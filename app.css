@@ -40,10 +40,6 @@
     color: black;
 }
 
-.smart-home-interior {
-    align-self: center;
-}
-
 .nav-top {
     display: flex;
     flex-direction: row;
@@ -120,7 +116,7 @@ label, input {
     font-style: normal;
     background-color: #332e29;
     color: #ff8800;
-    padding-left: 4em;
+    margin-left: 4em;
 }
 
 input {
@@ -129,9 +125,14 @@ input {
     height: 20%;
 }
 
+.type-box {
+    display: block;
+    background-color: #332e29;
+}
+
 footer > .name {
-    padding-right: 1em;
-    padding-left: 3em;
+    padding-right: 2em;
+    padding-left: 4.5em;
 }
 
 .footer-font {
