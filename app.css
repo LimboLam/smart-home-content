@@ -48,7 +48,7 @@
 }
 
 .nav-top > a {
-    padding: 1em;
+    padding: 1vw;
     font-size: larger;
 }
 
@@ -59,8 +59,8 @@
 }
 
 .nav-bot > a {
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
 
 nav > a {
@@ -105,8 +105,8 @@ footer {
     background-color: #332e29;
     overflow: hidden;
     width: 100%;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 label, input {
@@ -132,8 +132,8 @@ input {
 }
 
 footer > .name {
-    padding-right: 2em;
-    padding-left: 4em;
+    padding-right: 2vw;
+    padding-left: 4vw;
 }
 
 .footer-font {
@@ -157,12 +157,12 @@ footer > .name {
 
 .index {
     font-size: large;
-    padding: 3em;
+    padding: 3vh;
     width: 50%;
 }
 
 .home-page-img-2 {
-    padding: 3em;
+    padding: 3vh;
     width: 1333px;
 }
 
@@ -178,13 +178,15 @@ footer > .name {
 
 [class^=techo] {
     border: 1px black solid;
-    width: 750px;
-    margin-bottom: 3em;
+    width: 40vw;
+    margin-bottom: 5vh;
 }
 
 .tech-vert {
     display: flex;
     flex-direction: column;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 /* Safety */
@@ -193,13 +195,13 @@ footer > .name {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: space-evenly; 
-    padding: 2em;
+    padding: 2vh;
 }
 
 [class^=sf] {
     display: flex;
     flex-direction: row;
-    margin: 3em;
+    margin: 3vh;
     width: 60%;
 }
 
@@ -209,12 +211,12 @@ footer > .name {
 
 .safe-txt-left {
     display: flex;
-    padding-right: 5em;
+    padding-right: 6vw;
 }
 
 .safe-txt-right{
     display: flex;
-    padding-left: 80px;
+    padding-left: 6vw;
 }
 
 .safe-vert {
@@ -238,4 +240,9 @@ footer > .name {
     flex-direction: column;
     border: black solid 1px;
     width: 25%;
+}
+
+.convi-txt {
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
